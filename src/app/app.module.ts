@@ -29,7 +29,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   pbColor:"#596643",
   bgsColor:"#596643",
   fgsColor:"#596643",
-  fgsType:SPINNER.ballScaleMultiple,
+  fgsType:SPINNER.ballSpinClockwiseFadeRotating,
   fgsSize:100,
   pbDirection:PB_DIRECTION.leftToRight,
   pbThickness:5
