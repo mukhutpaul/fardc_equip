@@ -62,6 +62,7 @@ export class ManageCategoryComponent implements OnInit {
 
     this.router.events.subscribe(()=>{
       dialogRef.close();
+      
     });
 
     const sub = dialogRef.componentInstance.onAddCategor.subscribe((response)=>{
